@@ -1,5 +1,9 @@
 module PhysicsHelper
 
-greet() = print("Hello World!")
+include("./Eletrics.jl")
+# include("./Hydrostatics.jl")
+include("./Calorimetry.jl")
+include("./Mechanics.jl")
+include("./Interface.jl")
 
 end # module
